@@ -31,6 +31,13 @@ When developing test cases, you might find that secrets are introduced that cann
         AWS_ACCESS_KEY_ID="AKIAZBQE345LKPTEAHQD"
         AWS_SECRET_ACCESS_KEY="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"
         ```
+        ```
+        default:
+         github-token: github_pat_<REMOVEME>11A4YXR6Y0v36CYFkuT5I1_ZRWX91c8k0waSN6x7AiVJ6zZ9ZHUQXBblBqFQpKd23V6CL7MWMPopnmBxzn
+         output: json
+         region: us-east-2
+        ```
+        
 2. Determine if the secret is detected when the file is stored.
 3. How would you like to manage results from test files?
 
